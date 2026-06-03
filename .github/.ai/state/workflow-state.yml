@@ -2,14 +2,7 @@ workflow: java21-migration-v1
 current_stage: architect
 stages:
   architect:
-    status: IN_REVIEW
-    last_updated: "2026-06-03"
-    artifacts:
-      - .github/.ai/artifacts/architect/ADR-001-java21-migration-strategy.md
-      - .github/.ai/artifacts/architect/ARCHITECTURE-SPEC-java21.md
-      - .github/.ai/artifacts/architect/IMPLEMENTATION-PLAN-wave1.md
-    handoff: .github/agents/architect/handoff-to-developer.md
+    status: NOT_STARTED
   developer:
     status: BLOCKED
-    last_updated: "2026-06-03"
-    blocked_reason: "Awaiting human approval of architect artifacts"
+    blocked_reason: "Awaiting Architect Agent artifacts and human approval"

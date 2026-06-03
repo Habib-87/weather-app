@@ -1,11 +1,3 @@
-# Handoff: Developer -> Human Review
+# Developer → Human Review Handoff
 
-## Handoff Status
-IN_REVIEW
-
-## Artifacts
-- Dev Task Breakdown: `.ai/artifacts/developer/DEV-TASK-BREAKDOWN-wave1.md`
-- Change Plan: `.ai/artifacts/developer/CHANGE-PLAN-wave1.md`
-
-## Notes
-Ready for human review and approval decision in `.ai/approvals/developer/approval.yaml`.
+_This file will be populated by the Developer Agent once artifacts are ready for review._
