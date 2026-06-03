@@ -20,7 +20,8 @@
     <description>Spring Boot Weather API for European Cities (Java 8)</description>
 
     <properties>
-        <java.version>8</java.version>
+        <java.version>11</java.version>
+        <lombok.version>1.18.30</lombok.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -41,6 +42,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
             <optional>true</optional>
         </dependency>
 
