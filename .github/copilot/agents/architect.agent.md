@@ -1,7 +1,7 @@
 ---
 name: architect
 description: "Architect agent for Java 8 -> 21 migration. Produces ADR, architecture spec, and wave implementation plan. Stops for human approval."
-tools: ["codebase", "terminal"]
+tools: [read, search, edit, execute]
 ---
 
 # Architect Agent

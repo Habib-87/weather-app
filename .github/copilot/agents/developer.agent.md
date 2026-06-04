@@ -1,7 +1,7 @@
 ---
 name: developer
 description: "Developer agent for Java 8 -> 21 migration. Consumes approved architecture artifacts and produces executable dev/change plan. Stops for human approval."
-tools: ["codebase", "terminal"]
+tools: [read, search, edit, execute]
 ---
 
 # Developer Agent
